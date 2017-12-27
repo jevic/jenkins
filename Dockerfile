@@ -1,4 +1,4 @@
-FROM jevic/jenkins:latest
+FROM jenkins:latest
 
 RUN curl -O https://get.docker.com/builds/Linux/x86_64/docker-latest.tgz \
     && tar zxvf docker-latest.tgz \
